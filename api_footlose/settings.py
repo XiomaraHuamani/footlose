@@ -83,12 +83,12 @@ WSGI_APPLICATION = 'api_footlose.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'footlose',
-        'USER': 'root',
-        'PASSWORD': '',
-        'HOST': 'localhost',
-        'PORT': '3306',
+        'ENGINE': 'django.db.backends.postgresql', 
+        'NAME': 'db_f',  
+        'USER': 'postgres',  
+        'PASSWORD': '9780ubuntu',  
+        'HOST': '213.199.44.2',  
+        'PORT': '5432',  
     }
 }
 
